@@ -50,6 +50,12 @@ section h2.t{font-size:clamp(2rem,5vw,3.2rem);color:var(--gold);margin-bottom:.7
 .plan li{margin-bottom:.45rem}
 .plan .btn{text-align:center}
 .pnote{margin:1.5rem 0 0;color:var(--muted)}
+.tag{display:inline-block;font-size:.78rem;font-weight:700;color:var(--on);background:var(--gold);border-radius:999px;padding:.15rem .7rem;margin-bottom:.6rem;align-self:flex-start}
+.sub{font-family:Anton,Impact,sans-serif;font-size:1.5rem;color:var(--text);margin:2.8rem 0 .8rem}
+.alc{list-style:none;margin:0;padding:0;border-top:1px solid var(--line)}
+.alc li{display:flex;justify-content:space-between;gap:1rem;padding:.8rem 0;border-bottom:1px solid var(--line)}
+.alc span:last-child{color:var(--gold);font-weight:700;text-align:right}
+.terms{margin:0;padding-left:1.1rem;color:var(--muted)}.terms li{margin-bottom:.4rem}
 .steps{display:grid;grid-template-columns:repeat(3,1fr);gap:1.5rem;counter-reset:s;padding:0;list-style:none;margin:0}
 .steps li{counter-increment:s;border-left:3px solid var(--gold);padding-left:1.1rem}
 .steps li::before{content:counter(s);font:400 2.4rem Anton,Impact,sans-serif;color:var(--gold2)}
@@ -90,13 +96,31 @@ footer{padding:2rem 0 3rem;color:var(--muted);text-align:center;font-size:.95rem
 <li><h3>Graphics</h3><p>Social media graphics and animated posts for your community.</p></li></ul></div></section>
 
 <section id="pricing"><div class="wrap"><h2 class="t">PRICING</h2>
-<p class="lead">Simple packages for posters, branding, and graphics. Prices are in Indian rupees.</p>
+<p class="lead">Packages for scrims and tournaments, plus single designs. Prices are in Indian rupees.</p>
 <div class="plans">
-<div class="plan"><h3>Single poster</h3><div class="price">₹499</div><ul><li>One poster: announcement, schedule, or standings</li><li>Your logo, colors, and details</li><li>2 revisions</li></ul><a class="btn" href="https://instagram.com/ep_visual.s" rel="noopener">DM to order</a></div>
-<div class="plan"><h3>Tournament set</h3><div class="price">₹1,499</div><ul><li>3 matching posters for one event</li><li>Announcement, schedule, and standings</li><li>2 revisions per poster</li></ul><a class="btn" href="https://instagram.com/ep_visual.s" rel="noopener">DM to order</a></div>
-<div class="plan top"><h3>Full package</h3><div class="price">₹2,999</div><ul><li>Logo design</li><li>3 posters in your brand style</li><li>Social media kit: profile picture and banner</li><li>1 animated announcement post</li><li>3 revisions</li></ul><a class="btn main" href="https://instagram.com/ep_visual.s" rel="noopener">DM to order</a></div>
+<div class="plan"><h3>Starter Scrim Pack</h3><div class="price">₹499</div><ul><li>Main announcement poster</li><li>Slot list or team list graphic</li><li>Matchup (versus) template</li><li>2 rounds of revisions</li></ul><a class="btn" href="https://instagram.com/ep_visual.s" rel="noopener">DM to order</a></div>
+<div class="plan top"><span class="tag">Best for events</span><h3>Standard Tournament Pack</h3><div class="price">Custom</div><ul><li>Priced according to your tournament and needs</li><li>Everything in Starter</li><li>Points table or leaderboard template</li><li>Tournament bracket graphic</li><li>MVP or player of the match graphic</li></ul><a class="btn main" href="https://instagram.com/ep_visual.s" rel="noopener">DM for a quote</a></div>
+<div class="plan"><h3>Premium League Pack</h3><div class="price">₹8,000</div><ul><li>Everything in Standard</li><li>Stream overlay kit: intermission screen, gameplay frame, webcam border</li><li>Countdown screen</li><li>Editable source files</li></ul><a class="btn" href="https://instagram.com/ep_visual.s" rel="noopener">DM to order</a></div>
 </div>
-<p class="pnote">Need something custom, like stream overlays or a bigger event? Send me a message for a quote.</p></div></section>
+<h3 class="sub">Single designs</h3>
+<ul class="alc">
+<li><span>Single poster (announcement, schedule, or standings)</span><span>₹199</span></li>
+<li><span>Logo for a team or community</span><span>DM for a quote</span></li>
+<li><span>Animated poster or intro screen</span><span>DM for a quote</span></li>
+</ul>
+<h3 class="sub">Add-ons</h3>
+<ul class="alc">
+<li><span>Rush delivery in 24 to 48 hours</span><span>Ask for price</span></li>
+<li><span>Editable source files</span><span>Ask for price</span></li>
+<li><span>Extra revisions</span><span>Ask for price</span></li>
+</ul>
+<h3 class="sub">Good to know</h3>
+<ul class="terms">
+<li>Standard delivery takes 3 to 5 days.</li>
+<li>50% advance to start, and the rest after you approve the final design.</li>
+<li>Each package includes up to 2 rounds of minor revisions.</li>
+</ul>
+<p class="pnote">Running a big league or need something custom? Send me a message for a quote.</p></div></section>
 
 <section id="process"><div class="wrap"><h2 class="t">HOW IT WORKS</h2>
 <p class="lead">Three steps from first message to final files.</p>
